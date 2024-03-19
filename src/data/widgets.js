@@ -7,7 +7,7 @@ export const NetworkId =
   window.location.hostname in TestnetDomains ? "testnet" : "mainnet";
 const TestnetWidgets = {
   image: "eugenethedream/widget/Image",
-  default: "eugenethedream/widget/Welcome",
+  default: "nearbuilders.testnet/widget/ndc.verify",
   viewSource: "eugenethedream/widget/WidgetSource",
   widgetMetadataEditor: "eugenethedream/widget/WidgetMetadataEditor",
   widgetMetadata: "eugenethedream/widget/WidgetMetadata",
@@ -20,7 +20,7 @@ const TestnetWidgets = {
 
 const MainnetWidgets = {
   image: "mob.near/widget/Image",
-  default: "buildhub.near/widget/home",
+  default: "identity.near/widget/ndc.verify",
   feed: "buildhub.near/widget/Feed",
   resources: "buildhub.near/widget/Resources",
   viewSource: "mob.near/widget/WidgetSource",
