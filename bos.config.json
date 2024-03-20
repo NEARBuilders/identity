@@ -1,0 +1,8 @@
+{
+  "account": "identity.near",
+  "web4": {
+    "index": {
+      "src": "identity.near/widget/verify"
+    }
+  }
+}
