@@ -9,7 +9,8 @@ jobs:
     uses: nearbuilders/bos-workspace/.github/workflows/deploy.yml@main
     with:
       deploy-env: "mainnet"
-      app-name: "builddao"
+      app-name: "identity"
+      bw-legacy: false
       deploy-account-address: ${{ vars.BOS_SIGNER_ACCOUNT_ID }}
       signer-account-address: ${{ vars.BOS_SIGNER_ACCOUNT_ID }}
       signer-public-key: ${{ vars.BOS_SIGNER_PUBLIC_KEY }}

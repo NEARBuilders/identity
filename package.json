@@ -7,7 +7,7 @@
     "init": "git submodule update --init && pnpm install",
     "bw": "bos-workspace",
     "dev": "pnpm run dev:gateway && pnpm run dev:apps",
-    "dev:gateway": "cd gateway && pnpm run build",
+    "dev:gateway": "cd gateway && pnpm run dev",
     "dev:apps": "pnpm run bw dev -g ./gateway/dist"
   },
   "keywords": [],
