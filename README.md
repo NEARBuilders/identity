@@ -38,3 +38,5 @@ pnpm run dev
 ```
 
 Your gateway and local dev server should now be connected. Modify your components in `/widget`; changes should reflect immediately.
+
+Remember to comment out the above before push so we can successfully deploy to production. This is only a temporary workaround.
