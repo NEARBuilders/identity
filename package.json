@@ -2,6 +2,7 @@
   "name": "identity",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "scripts": {
     "init": "git submodule update --init && pnpm install",
     "bw": "bos-workspace",
